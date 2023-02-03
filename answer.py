@@ -29,11 +29,11 @@ def strings():
 
     # What is the length of stevens_7?
 
-    length = len(stevens)
+    length = len(stevens_7)
 
     # Concatenate variable stevens with string " is great" and assign it to variable great.
 
-    great = stevens+ " is great"
+    great = stevens + " is great"
 
     # Replace "great" with "good" in variable great and assign it to a new variable good.
 
@@ -67,7 +67,7 @@ def list_1D():
     l.sort()
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
 
-    new_l = l[3:11]
+    new_l = l[3:10]
 
     return hoboken,hoboken_list, hoboken_first_item, l, new_l
 
